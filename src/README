@@ -1,0 +1,11 @@
+This is for the project source code. The development language
+is the first level of the hierarchy below this. After that, it
+is whatever the language requires.
+
+At this level, at least, there will be:
+
+java		For the Java application code
+nullsoft	For the Windows installer code
+
+There may be others (shell and perl, possibly, but TBD)
+
