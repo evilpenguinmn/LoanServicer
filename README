@@ -1,0 +1,10 @@
+This project is licensed under the GPL (see the LICENSE file for details).
+
+This purpose of this project is to produce a GUI application that can be used
+to originate and track the status of a loan and its repayment.
+
+This isn't for banks (who will all have such software already), although if you
+are a bank, by all means, feel free to use this code subject to the terms of
+the GPL. We developed it to track a Contract for Deed, and we thought many
+others out there might be able to use such an application.
+
