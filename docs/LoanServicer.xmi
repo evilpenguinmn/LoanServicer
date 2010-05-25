@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI verified="false" xmi.version="1.2" timestamp="2010-05-15T16:29:51" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+<XMI verified="false" xmi.version="1.2" timestamp="2010-05-25T12:10:08" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller http://uml.sf.net</XMI.exporter>
@@ -33,7 +33,29 @@
       <UML:Package visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="RT5YSmjaWNft" name="com.technodane.LoanServicer.Financial">
        <UML:Namespace.ownedElement>
         <UML:Class visibility="public" isSpecification="false" namespace="RT5YSmjaWNft" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="knP2G3iPj3sS" name="Payment"/>
-        <UML:Class visibility="public" isSpecification="false" namespace="RT5YSmjaWNft" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="R8n3Q4HR9GHS" name="Loan"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Package visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="7nClRo2Hu8NC" name="com">
+       <UML:Namespace.ownedElement>
+        <UML:Package visibility="public" isSpecification="false" namespace="7nClRo2Hu8NC" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="r5bXRuOYfYI6" name="technodane">
+         <UML:Namespace.ownedElement>
+          <UML:Package visibility="public" isSpecification="false" namespace="r5bXRuOYfYI6" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="KLEQgQNX2bMA" name="LoanServicer">
+           <UML:Namespace.ownedElement>
+            <UML:Package visibility="public" isSpecification="false" namespace="KLEQgQNX2bMA" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="g3NucukfVH6N" name="Financial">
+             <UML:Namespace.ownedElement>
+              <UML:Class visibility="public" isSpecification="false" namespace="g3NucukfVH6N" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="R8n3Q4HR9GHS" name="Loan">
+               <UML:Classifier.feature>
+                <UML:Attribute visibility="private" isSpecification="false" xmi.id="Ie6G3lUFiXDp" type="y6o37YROilWK" name="loanAmount"/>
+                <UML:Attribute visibility="private" isSpecification="false" xmi.id="UYu6UACVHdGQ" type="y6o37YROilWK" name="balance"/>
+                <UML:Attribute visibility="private" isSpecification="false" xmi.id="A7bgMFwnBENy" type="y6o37YROilWK" name="interestRate"/>
+               </UML:Classifier.feature>
+              </UML:Class>
+             </UML:Namespace.ownedElement>
+            </UML:Package>
+           </UML:Namespace.ownedElement>
+          </UML:Package>
+         </UML:Namespace.ownedElement>
+        </UML:Package>
        </UML:Namespace.ownedElement>
       </UML:Package>
      </UML:Namespace.ownedElement>
@@ -41,22 +63,16 @@
       <diagrams>
        <diagram showopsig="1" linecolor="#ff0000" snapx="10" showattribassocs="1" snapy="10" linewidth="0" showattsig="1" showpubliconly="1" showpackage="1" showstereotype="1" name="class diagram" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="702" canvaswidth="1349" localid="" snapcsgrid="0" showgrid="0" showops="1" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="I7KCPdez0ZJX" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
         <widgets>
-         <classwidget linecolor="none" usesdiagramfillcolor="1" linewidth="none" showoperations="1" usesdiagramusefillcolor="1" showpubliconly="1" showpackage="1" x="63" showattsigs="601" showstereotype="1" y="115" showattributes="1" font="Sans Serif,9,-1,0,75,0,0,0,0,0" width="325" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="R8n3Q4HR9GHS" showscope="1" height="28" showopsigs="601"/>
-         <classwidget linecolor="none" usesdiagramfillcolor="1" linewidth="none" showoperations="1" usesdiagramusefillcolor="1" showpubliconly="1" showpackage="1" x="475" showattsigs="601" showstereotype="1" y="106" showattributes="1" font="Sans Serif,9,-1,0,75,0,0,0,0,0" width="354" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="knP2G3iPj3sS" showscope="1" height="28" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="none" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="1" showpackage="1" x="63" showattsigs="601" showstereotype="1" y="115" showattributes="1" font="Sans Serif,9,-1,0,75,0,0,0,0,0" width="342" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="R8n3Q4HR9GHS" showscope="1" height="28" showopsigs="601"/>
+         <classwidget linecolor="none" usesdiagramfillcolor="1" linewidth="none" showoperations="1" usesdiagramusefillcolor="1" showpubliconly="1" showpackage="1" x="475" showattsigs="601" showstereotype="1" y="106" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" width="354" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="knP2G3iPj3sS" showscope="1" height="28" showopsigs="601"/>
          <packagewidget width="282" showstereotype="1" x="93" y="16" usesdiagramusefillcolor="1" usesdiagramfillcolor="1" isinstance="0" fillcolor="none" height="38" linecolor="none" xmi.id="RT5YSmjaWNft" usefillcolor="1" linewidth="none" font="Sans Serif,9,-1,0,75,0,0,0,0,0"/>
         </widgets>
         <messages/>
         <associations>
-         <assocwidget indexa="2" indexb="1" visibilityA="0" widgetaid="RT5YSmjaWNft" visibilityB="0" roleBdoc="" roleAdoc="" linecolor="none" changeabilityA="900" totalcounta="3" changeabilityB="900" widgetbid="knP2G3iPj3sS" totalcountb="2" type="509" documentation="" linewidth="none">
+         <assocwidget indexa="2" indexb="1" visibilityA="0" widgetaid="RT5YSmjaWNft" visibilityB="0" roleBdoc="" roleAdoc="" linecolor="none" changeabilityA="900" totalcounta="2" changeabilityB="900" widgetbid="knP2G3iPj3sS" totalcountb="2" type="509" documentation="" linewidth="none">
           <linepath>
            <startpoint startx="375" starty="54"/>
            <endpoint endx="475" endy="106"/>
-          </linepath>
-         </assocwidget>
-         <assocwidget indexa="1" indexb="1" visibilityA="0" widgetaid="RT5YSmjaWNft" visibilityB="0" roleBdoc="" roleAdoc="" linecolor="none" changeabilityA="900" totalcounta="3" changeabilityB="900" widgetbid="R8n3Q4HR9GHS" totalcountb="2" type="509" documentation="" linewidth="none">
-          <linepath>
-           <startpoint startx="292" starty="54"/>
-           <endpoint endx="292" endy="115"/>
           </linepath>
          </assocwidget>
         </associations>
@@ -80,13 +96,25 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="I7KCPdez0ZJX" uniqueid="RT5YSmjaWNft" documentation=""/>
+  <docsettings viewid="I7KCPdez0ZJX" uniqueid="g3NucukfVH6N" documentation=""/>
   <listview>
    <listitem open="1" type="800" id="Views">
     <listitem open="1" type="801" id="Logical View">
      <listitem open="0" type="807" id="I7KCPdez0ZJX" label="class diagram"/>
+     <listitem open="1" type="818" id="7nClRo2Hu8NC">
+      <listitem open="1" type="818" id="r5bXRuOYfYI6">
+       <listitem open="1" type="818" id="KLEQgQNX2bMA">
+        <listitem open="1" type="818" id="g3NucukfVH6N">
+         <listitem open="0" type="813" id="R8n3Q4HR9GHS">
+          <listitem open="0" type="814" id="Ie6G3lUFiXDp"/>
+          <listitem open="0" type="814" id="UYu6UACVHdGQ"/>
+          <listitem open="0" type="814" id="A7bgMFwnBENy"/>
+         </listitem>
+        </listitem>
+       </listitem>
+      </listitem>
+     </listitem>
      <listitem open="1" type="818" id="RT5YSmjaWNft">
-      <listitem open="0" type="813" id="R8n3Q4HR9GHS"/>
       <listitem open="0" type="813" id="knP2G3iPj3sS"/>
      </listitem>
      <listitem open="0" type="830" id="Datatypes">
